@@ -1,0 +1,12 @@
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# assessment.php falls back to a local vendor/ for nikic/php-parser
+vendor/
+
+# SonarQube credentials (SONAR_TOKEN) if kept in a local env file
+.env
+.env.*
