@@ -3,15 +3,15 @@
 **Bottom line.** A fully autonomous Claude Sonnet 5 agent fleet at medium effort fixed three
 real upstream Kimai bugs in 2h 04m of wall clock and verified them live in 15m 28s. With 1h 50m
 of human ticket work and an estimated 7.6–10.2 hours of pull request review, the full cycle takes
-11.8–14.4 hours. A senior developer plus a QA engineer would need 187 hours,
-or 23 working days. Static measures show no unneeded abstraction and no new hard-to-read method
+11.8–14.4 hours. A senior developer plus a QA engineer using AI copilots would need 148 hours,
+or 19 working days. Static measures show no unneeded abstraction and no new hard-to-read method
 in the code produced by the agentic fleet. The three-agent parallel work was orchestrated by
 [Kaizero](https://kaizero.sh) — Sensei and Supervisor for a fleet of coding agents.
 
 | Question | Answer | Evidence |
 |---|---|---|
 | Are the bugs fixed? | Yes, 3 of 3 | [qa-report.md](qa-report.md) |
-| How fast? | 11.8–14.4 hours, against 187 human hours | [times](#2-speed-for-2035-changed-lines-of-code) |
+| How fast? | 11.8–14.4 hours, against 148 hours with AI copilots | [times](#2-speed-for-2035-changed-lines-of-code) |
 | Is the code bloated or hard to read? | No, with two small caveats | [assessments](#4-code-bloat-and-readability) |
 
 ---
